@@ -1,0 +1,66 @@
+{
+  "chart": {
+    "title": "Electricity production from fossil fuels, nuclear and renewables",
+    "subtitle": "Electricity generation from fossil fuels (coal, gas, and oil), nuclear, and renewables (solar, wind, hydropower, bioenergy, geothermal, wave, and tidal), measured in [terawatt-hours](#dod:watt-hours).",
+    "citation": "Ember (2025); Energy Institute - Statistical Review of World Energy (2025)",
+    "originalChartUrl": "https://ourworldindata.org/grapher/elec-fossil-nuclear-renewables?v=1&csvType=full&useColumnShortNames=false",
+    "selection": [
+      "World"
+    ]
+  },
+  "columns": {
+    "Electricity from fossil fuels - TWh (adapted for visualization of chart elec-fossil-nuclear-renewables)": {
+      "titleShort": "Electricity generation from fossil fuels",
+      "titleLong": "Electricity generation from fossil fuels - Ember",
+      "descriptionShort": "Electricity generation from coal, oil, and gas, measured in [terawatt-hours](#dod:watt-hours).",
+      "descriptionProcessing": "- While the Energy Institute (EI) provides a longer time series (dating back to 1965) than Ember (dating back only to 1990 for European countries and 2000 for other countries), EI does not cover all countries or all sources of electricity (for example, generation from bioenergy is missing). Therefore, when data from Ember is available for a given country and year, we use it as the primary data source. Where Ember data is unavailable, we supplement it with data from EI.",
+      "shortUnit": "TWh",
+      "unit": "terawatt-hours",
+      "timespan": "1985-2024",
+      "type": "Numeric",
+      "owidVariableId": 1077785,
+      "shortName": "fossil_generation__twh_chart_elec_fossil_nuclear_renewables",
+      "lastUpdated": "2025-06-27",
+      "nextUpdate": "2026-06-27",
+      "citationShort": "Ember (2025); Energy Institute - Statistical Review of World Energy (2025) – with major processing by Our World in Data",
+      "citationLong": "Ember (2025); Energy Institute - Statistical Review of World Energy (2025) – with major processing by Our World in Data. “Electricity generation from fossil fuels – Ember” [dataset]. Ember, “Yearly Electricity Data Europe”; Ember, “Yearly Electricity Data”; Energy Institute, “Statistical Review of World Energy” [original data].",
+      "fullMetadata": "https://api.ourworldindata.org/v1/indicators/1077785.metadata.json"
+    },
+    "Electricity from renewables - TWh (adapted for visualization of chart elec-fossil-nuclear-renewables)": {
+      "titleShort": "Electricity generation from renewables",
+      "titleLong": "Electricity generation from renewables - Ember",
+      "descriptionShort": "Measured in [terawatt-hours](#dod:watt-hours).",
+      "descriptionProcessing": "- While the Energy Institute (EI) provides a longer time series (dating back to 1965) than Ember (dating back only to 1990 for European countries and 2000 for other countries), EI does not cover all countries or all sources of electricity (for example, generation from bioenergy is missing). Therefore, when data from Ember is available for a given country and year, we use it as the primary data source. Where Ember data is unavailable, we supplement it with data from EI.",
+      "shortUnit": "TWh",
+      "unit": "terawatt-hours",
+      "timespan": "1985-2024",
+      "type": "Numeric",
+      "owidVariableId": 1077781,
+      "shortName": "renewable_generation__twh_chart_elec_fossil_nuclear_renewables",
+      "lastUpdated": "2025-06-27",
+      "nextUpdate": "2026-06-27",
+      "citationShort": "Ember (2025); Energy Institute - Statistical Review of World Energy (2025) – with major processing by Our World in Data",
+      "citationLong": "Ember (2025); Energy Institute - Statistical Review of World Energy (2025) – with major processing by Our World in Data. “Electricity generation from renewables – Ember” [dataset]. Ember, “Yearly Electricity Data Europe”; Ember, “Yearly Electricity Data”; Energy Institute, “Statistical Review of World Energy” [original data].",
+      "fullMetadata": "https://api.ourworldindata.org/v1/indicators/1077781.metadata.json"
+    },
+    "Electricity from nuclear - TWh (adapted for visualization of chart elec-fossil-nuclear-renewables)": {
+      "titleShort": "Electricity generation from nuclear",
+      "titleLong": "Electricity generation from nuclear",
+      "descriptionShort": "Measured in [terawatt-hours](#dod:watt-hours).",
+      "descriptionProcessing": "- While the Energy Institute (EI) provides a longer time series (dating back to 1965) than Ember (dating back only to 1990 for European countries and 2000 for other countries), EI does not cover all countries or all sources of electricity (for example, generation from bioenergy is missing). Therefore, when data from Ember is available for a given country and year, we use it as the primary data source. Where Ember data is unavailable, we supplement it with data from EI.",
+      "shortUnit": "TWh",
+      "unit": "terawatt-hours",
+      "timespan": "1985-2024",
+      "type": "Numeric",
+      "owidVariableId": 1077783,
+      "shortName": "nuclear_generation__twh_chart_elec_fossil_nuclear_renewables",
+      "lastUpdated": "2025-06-27",
+      "nextUpdate": "2026-06-27",
+      "citationShort": "Ember (2025); Energy Institute - Statistical Review of World Energy (2025) – with major processing by Our World in Data",
+      "citationLong": "Ember (2025); Energy Institute - Statistical Review of World Energy (2025) – with major processing by Our World in Data. “Electricity generation from nuclear” [dataset]. Ember, “Yearly Electricity Data Europe”; Ember, “Yearly Electricity Data”; Energy Institute, “Statistical Review of World Energy” [original data].",
+      "fullMetadata": "https://api.ourworldindata.org/v1/indicators/1077783.metadata.json"
+    }
+  },
+  "dateDownloaded": "2025-12-13",
+  "activeFilters": {}
+}
